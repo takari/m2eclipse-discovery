@@ -66,7 +66,7 @@ import org.sonatype.tycho.equinox.EquinoxServiceFactory;
 
 /**
  * @goal generate
- * @phase generate-resources
+ * @phase process-resources
  */
 public class M2eDiscoveryMetadataGeneratorMojo
     extends AbstractMojo
@@ -88,8 +88,6 @@ public class M2eDiscoveryMetadataGeneratorMojo
      * Catalog descriptor file
      * 
      * @parameter default-value="${project.basedir}/connectors.xml"
-     * @readonly
-     * @required
      */
     private File descriptor;
 
@@ -106,7 +104,7 @@ public class M2eDiscoveryMetadataGeneratorMojo
 
     public void execute()
         throws MojoExecutionException
-    {
+    {      
         if ( !SUPPORTED_M2E_VERSION.contains( m2eversion ) )
         {
             throw new MojoExecutionException( "Specified m2e version " + m2eversion + " is not supported" );
