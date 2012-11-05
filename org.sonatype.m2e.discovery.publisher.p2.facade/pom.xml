@@ -5,7 +5,6 @@
     <groupId>org.sonatype.m2e.discovery.publisher</groupId>
     <artifactId>org.sonatype.m2e.discovery.publisher.parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../org.sonatype.m2e.discovery.publisher.parent</relativePath>
   </parent>
 
   <artifactId>org.sonatype.m2e.discovery.publisher.p2.facade</artifactId>
