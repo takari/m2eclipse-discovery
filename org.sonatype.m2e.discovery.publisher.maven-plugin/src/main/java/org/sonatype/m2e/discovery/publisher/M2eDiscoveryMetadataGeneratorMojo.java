@@ -73,7 +73,7 @@ public class M2eDiscoveryMetadataGeneratorMojo
 {
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat( "yyyy-MM-dd HH:mm:ss" );
 
-    private static final List<String> SUPPORTED_M2E_VERSION = Arrays.asList( "1.0", "1.1" );
+    private static final List<String> SUPPORTED_M2E_VERSION = Arrays.asList( "1.0", "1.1", "1.3" );
 
     /**
      * Base directory of the project.
