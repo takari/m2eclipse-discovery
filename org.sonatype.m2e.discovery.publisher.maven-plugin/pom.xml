@@ -13,7 +13,7 @@
   <properties>
     <modello.version>1.5</modello.version>
     <aether.version>1.11</aether.version>
-    <m2e-lib.version>1.0.0-SNAPSHOT</m2e-lib.version>
+    <m2e-lib.version>1.0.0</m2e-lib.version>
   </properties>
 
   <dependencies>
