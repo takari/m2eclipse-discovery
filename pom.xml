@@ -8,7 +8,7 @@
     <version>9</version>
   </parent>
 
-  <groupId>org.sonatype.m2e.discovery.publisher</groupId>
+  <groupId>io.takari.m2e.discovery.publisher</groupId>
   <artifactId>org.sonatype.m2e.discovery.publisher.parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
