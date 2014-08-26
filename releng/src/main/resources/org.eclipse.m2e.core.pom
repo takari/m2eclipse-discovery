@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.takari.m2e.discovery.publisher</groupId>
+  <artifactId>org.eclipse.m2e.core</artifactId>
+  <version>${m2e-lib.version}</version>
+
+  <name>org.eclipse.m2e.core</name>
+  <description>org.eclipse.m2e.core</description>
+  <url>http://www.eclipse.org/m2e/</url>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>http://git.eclipse.org/gitroot/m2e/m2e-core.git</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>m2e-dev@eclipse.org</id>
+      <name>m2e development team</name>
+    </developer>
+  </developers>
+</project>
