@@ -47,17 +47,17 @@
       <version>${tycho-p2.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.sonatype.m2e.discovery.publisher</groupId>
+      <groupId>io.takari.m2e.discovery.publisher</groupId>
       <artifactId>org.sonatype.m2e.discovery.publisher.p2.facade</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.m2e</groupId>
+      <groupId>io.takari.m2e.discovery.publisher</groupId>
       <artifactId>org.eclipse.m2e.core</artifactId>
       <version>${m2e-lib.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.m2e</groupId>
+      <groupId>io.takari.m2e.discovery.publisher</groupId>
       <artifactId>org.eclipse.m2e.discovery</artifactId>
       <version>${m2e-lib.version}</version>
     </dependency>

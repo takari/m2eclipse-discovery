@@ -47,7 +47,15 @@
                   <version>${m2e-lib.version}</version>
                 </iu>
                 <iu>
+                  <id>org.eclipse.m2e.core.source</id>
+                  <version>${m2e-lib.version}</version>
+                </iu>
+                <iu>
                   <id>org.eclipse.m2e.discovery</id>
+                  <version>${m2e-lib.version}</version>
+                </iu>
+                <iu>
+                  <id>org.eclipse.m2e.discovery.source</id>
                   <version>${m2e-lib.version}</version>
                 </iu>
               </ius>
@@ -81,6 +89,7 @@
             <phase>deploy</phase>
             <configuration>
               <file>${downloaded}/org.eclipse.m2e.core_${m2e-lib.version}.jar</file>
+              <sources>${downloaded}/org.eclipse.m2e.core.source_${m2e-lib.version}.jar</sources>
               <pomFile>${project.build.outputDirectory}/org.eclipse.m2e.core.pom</pomFile>
             </configuration>
           </execution>
@@ -93,6 +102,7 @@
             <phase>deploy</phase>
             <configuration>
               <file>${downloaded}/org.eclipse.m2e.discovery_${m2e-lib.version}.jar</file>
+              <sources>${downloaded}/org.eclipse.m2e.discovery.source_${m2e-lib.version}.jar</sources>
               <pomFile>${project.build.outputDirectory}/org.eclipse.m2e.discovery.pom</pomFile>
             </configuration>
           </execution>
