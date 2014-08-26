@@ -5,7 +5,7 @@
   <parent>
     <groupId>io.takari.m2e.discovery.publisher</groupId>
     <artifactId>org.sonatype.m2e.discovery.publisher.parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.0</version>
   </parent>
 
   <artifactId>org.sonatype.m2e.discovery.publisher.p2.impl</artifactId>
