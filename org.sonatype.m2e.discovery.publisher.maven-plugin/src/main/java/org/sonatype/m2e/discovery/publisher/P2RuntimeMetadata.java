@@ -17,7 +17,7 @@ import org.sonatype.tycho.p2.facade.internal.TychoP2RuntimeMetadata;
 public class P2RuntimeMetadata
     implements TychoP2RuntimeMetadata
 {
-    private static final String DEFAULT_VERSION = "0.0.1-SNAPSHOT";
+    private static final String DEFAULT_VERSION = "0.4.0";
 
     private static final List<Dependency> ARTIFACTS;
 
@@ -30,9 +30,9 @@ public class P2RuntimeMetadata
 
         String p2Version = getVersion();
 
-        ARTIFACTS.add( newDependency( "org.sonatype.m2e.discovery.publisher",
+        ARTIFACTS.add( newDependency( "io.takari.m2e.discovery.publisher",
                                       "org.sonatype.m2e.discovery.publisher.p2.facade", p2Version, "jar" ) );
-        ARTIFACTS.add( newDependency( "org.sonatype.m2e.discovery.publisher",
+        ARTIFACTS.add( newDependency( "io.takari.m2e.discovery.publisher",
                                       "org.sonatype.m2e.discovery.publisher.p2.impl", p2Version, "jar" ) );
     }
 

@@ -5,12 +5,12 @@
   <parent>
     <groupId>io.takari</groupId>
     <artifactId>takari</artifactId>
-    <version>9</version>
+    <version>12</version>
   </parent>
 
   <groupId>io.takari.m2e.discovery.publisher</groupId>
   <artifactId>org.sonatype.m2e.discovery.publisher.parent</artifactId>
-  <version>0.1.0</version>
+  <version>0.4.0</version>
 
   <packaging>pom</packaging>
 
